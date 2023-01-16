@@ -1,0 +1,92 @@
+<div class="content-wrapper">
+
+  <section class="content-header">
+    <div class="container-fluid">
+      <div class="row mb-2">
+        <div class="col-sm-6">
+          <h1 style="color:#6610f2">Employee</h1>
+        </div>
+        <div class="col-sm-6">
+          <ol class="breadcrumb float-sm-right">
+            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item">Employee</li>
+            <li class="breadcrumb-item active">List</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="content">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12">
+          <div class="card shadow mb-4">
+            <div class="card-body">
+              <div class="d-flex justify-content-between">
+                <h3>Employee List</h3>
+                <a href="/employee/create" class="btn btn-md bg-indigo">Add Employee</a>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="card shadow">
+            <div class="card-body">
+              <table id="example1" class="table table-bordered table-striped">
+                <thead>
+                <tr>
+                  <th>No</th>
+                  <th>Username</th>
+                  <th>First Name</th>
+                  <th>Last Name</th>
+                  <th>Email</th>
+                  <th>BirtDate</th>
+                  <th>Basic Salary</th>
+                  <th>Status</th>
+                  <th>Group</th>
+                  <th>Description</th>
+                  <th>Option</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr *ngFor="let employee of employees">
+                  <td>{{employee.id }}</td>
+                  <td>{{employee.username }}</td>
+                  <td>{{employee.firstname }}</td>
+                  <td>{{employee.lastname }}</td>
+                  <td>{{employee.email }}</td>
+                  <td>{{employee.birthdate }}</td>
+                  <td>{{employee.basicsalary }}</td>
+                  <td>{{employee.status }}</td>
+                  <td>{{employee.group }}</td>
+                  <td>{{employee.description }}</td>
+                  <td>
+                    <div class="btn-group">
+                      <button type="button" class="btn bg-indigo dropdown-toggle dropdown-icon shadow" data-toggle="dropdown"> Action</button>
+                      <div class="dropdown-menu dropdown-menu-right border-0 shadow">
+                        <a class="dropdown-item text-success" href="#" [routerLink]="['/employee/', employee.id, 'detail']">View</a>
+                        <a class="dropdown-item text-primary" href="#" [routerLink]="['/employee/', employee.id, 'update']">Update</a>
+                        <button type="button" class="dropdown-item text-danger" (click)="deleteEmployee(employee.id)">Delete</button>
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+
+                </tbody>
+
+              </table>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+</div>

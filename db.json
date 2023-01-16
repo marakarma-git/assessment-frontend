@@ -1,0 +1,59 @@
+{
+  "users": [
+    {
+      "fullname": "Mara Karma",
+      "username": "marakarma",
+      "mobile": "082124668801",
+      "email": "marakarma36@gmail.com",
+      "password": "",
+      "id": 1
+    },
+    {
+      "fullname": "Administrator",
+      "username": "admin",
+      "mobile": "082124668801",
+      "email": "admin@gmail.com",
+      "password": "12345",
+      "id": 2
+    },
+    {
+      "fullname": "Ayrin",
+      "username": "ayrin",
+      "mobile": "081212212",
+      "email": "ayrin@gmail.com",
+      "password": "12345",
+      "id": 3
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "employees": [
+    {
+      "username": "riniperdana",
+      "firstname": "rini",
+      "lastname": "perdana",
+      "email": "rini@gmail.com",
+      "birthdate": "16-01-2023",
+      "basicsalary": "Rp.10.000.000",
+      "status": "Contract",
+      "group": "Data Scient",
+      "description": "lorem ipsum",
+      "id": 1
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
