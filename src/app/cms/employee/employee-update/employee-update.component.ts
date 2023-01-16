@@ -48,8 +48,8 @@ export class EmployeeUpdateComponent {
   submit(){
     console.log(this.form.value);
     this.employeeService.update(this.id, this.form.value).subscribe((res:any) => {
-         console.log('Post updated successfully!');
-         this.router.navigateByUrl('employee/list');
+         console.log('Employee updated successfully!');
+         this.router.navigateByUrl('employee/index');
     })
   }
 }

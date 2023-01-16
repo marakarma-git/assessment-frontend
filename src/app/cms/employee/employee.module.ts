@@ -18,8 +18,8 @@ const routes: Routes = [
     children:[
       {path:'employee/index', component:EmployeeIndexComponent},
       {path:'employee/create', component:EmployeeCreateComponent},
-      {path:'employee/:employeeId/update', component:PaymentRequestUpdateEvent},
-      {path:'employee/:employeeId/detail', component:EmployeeDetailComponent},
+      {path:'employee/:employeeId/update', component:EmployeeUpdateComponent},
+      {path:'employee/:employeeId/detail', component:EmployeeDetailComponent}
     ]
   }
 ]

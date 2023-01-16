@@ -5,25 +5,42 @@
       "username": "marakarma",
       "mobile": "082124668801",
       "email": "marakarma36@gmail.com",
-      "password": "",
+      "password": "12345",
       "id": 1
     },
     {
-      "fullname": "Administrator",
-      "username": "admin",
-      "mobile": "082124668801",
-      "email": "admin@gmail.com",
+      "fullname": "Rini Perdana",
+      "username": "riniperdana",
+      "mobile": "082124660987",
+      "email": "riniperdana@gmail.com",
       "password": "12345",
       "id": 2
     },
     {
-      "fullname": "Ayrin",
-      "username": "ayrin",
-      "mobile": "081212212",
-      "email": "ayrin@gmail.com",
+      "fullname": "Daniel Utama",
+      "username": "daniel",
+      "mobile": "082124668801",
+      "email": "danielutama@gmail.com",
       "password": "12345",
-      "id": 3
+      "id": 4
+    },
+    {
+      "fullname": "Panca Rahman",
+      "username": "panca",
+      "mobile": "082124668801",
+      "email": "pancarahman@gmail.com",
+      "password": "12345",
+      "id": 5
+    },
+    {
+      "fullname": "Hana Kamila",
+      "username": "hana",
+      "mobile": "082124668801",
+      "email": "hanakamila@gmail.com",
+      "password": "12345",
+      "id": 6
     }
+
   ],
   "posts": [
     {
@@ -34,16 +51,88 @@
   ],
   "employees": [
     {
-      "username": "riniperdana",
-      "firstname": "rini",
-      "lastname": "perdana",
-      "email": "rini@gmail.com",
-      "birthdate": "16-01-2023",
+      "username": "marakarma",
+      "firstname": "Mara",
+      "lastname": "Karma",
+      "email": "marakarma36@gmail.com",
+      "birthdate": "17-01-1994",
       "basicsalary": "Rp.10.000.000",
       "status": "Contract",
       "group": "Data Scient",
       "description": "lorem ipsum",
       "id": 1
+    },
+    {
+      "username": "riniperdana",
+      "firstname": "Rini",
+      "lastname": "Perdana",
+      "email": "riniperdana@gmail.com",
+      "birthdate": "16-01-1995",
+      "basicsalary": "Rp.10.000.000",
+      "status": "Contract",
+      "group": "IT Developer",
+      "description": "lorem ipsum",
+      "id": 2
+    },
+    {
+      "username": "hanakamila",
+      "firstname": "Hana",
+      "lastname": "Kamila",
+      "email": "hanakamila@gmail.com",
+      "birthdate": "16-01-1993",
+      "basicsalary": "Rp.10.000.000",
+      "status": "Contract",
+      "group": "Finance",
+      "description": "lorem ipsum",
+      "id": 3
+    },
+    {
+      "username": "agnesputry",
+      "firstname": "Agnes",
+      "lastname": "Putry",
+      "email": "agnesputry@gmail.com",
+      "birthdate": "16-01-1997",
+      "basicsalary": "Rp.10.000.000",
+      "status": "Contract",
+      "group": "Project Manager",
+      "description": "lorem ipsum",
+      "id": 4
+    },
+    {
+      "username": "rizkifauzi",
+      "firstname": "Rizki",
+      "lastname": "Fauzy",
+      "email": "rizkifauzi@gmail.com",
+      "birthdate": "20-01-1995",
+      "basicsalary": "Rp.10.000.000",
+      "status": "Contract",
+      "group": "Data Scient",
+      "description": "lorem ipsum",
+      "id": 5
+    },
+    {
+      "username": "hendrigunawan",
+      "firstname": "Hendri",
+      "lastname": "Gunawan",
+      "email": "hendrigunawan@gmail.com",
+      "birthdate": "16-01-1993",
+      "basicsalary": "Rp.10.000.000",
+      "status": "Contract",
+      "group": "Project Manager",
+      "description": "lorem ipsum",
+      "id": 6
+    },
+    {
+      "username": "dianutami",
+      "firstname": "Dian",
+      "lastname": "Utami",
+      "email": "dianutami@gmail.com",
+      "birthdate": "16-01-1995",
+      "basicsalary": "Rp.10.000.000",
+      "status": "Contract",
+      "group": "Finance",
+      "description": "lorem ipsum",
+      "id": 7
     }
   ],
   "comments": [
